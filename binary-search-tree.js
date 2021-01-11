@@ -137,4 +137,13 @@ class BinarySearchTree {
     }
 }
 
+const insertNums = [3,1,4,6,9,2,5,7];
+const insertChars = ['E','A','S','Y','Q','U','E','S','T','I','O','N'];
+
+const BST = new BinarySearchTree();
+insertNums.forEach(num => BST.add(num));
+
+const BST2 = new BinarySearchTree();
+insertChars.forEach(char => BST2.add(char));
+
 module.exports = BinarySearchTree;

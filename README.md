@@ -36,6 +36,7 @@ function tree(t){
     return tree(t.left) + t.value + tree(t.right)
 }
 ```
+* This function is summing the values of the binary tree together, if we use the above example with the numbers from problem 1 it would provide a result of 37. The time complexity of the probelm would be linear or O(n) becuase we are summing each number in the tree so as the input and size of the tree increases the function to sum the numbers does so at the same rate.
 
 ## 5. Height of a BST
 
